@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- cdn bootstrap css & script -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
+        crossorigin="anonymous"></script>
+
+    <!-- font for project -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Almarai:wght@300&family=Lalezar&family=Noto+Sans+Arabic:wght@100&family=Tajawal:wght@200;300&display=swap"
+        rel="stylesheet">
+    <!-- fontello icon -->
+    <link rel="stylesheet" href="assets/fontello-79e794d3/css/fontello.css">
+    <link rel="stylesheet" href="assets/stylesheet/local.css">
+    <link rel="stylesheet" href="assets/stylesheet/style.css">
+    <title>ّForm</title>
+</head>
+
+<body>
+    <main class="row justify-content-center  ">
+        <div class="col-8 border mt-5">
+            <div class="row justify-content-center ">
+                <div id="inp1" type="text" class=" rounded py-2  mt-4 form-control w-75">id</div>
+                <input type="text" aria-label="FirstInp" id="inp2" class="form-control py-2  mt-4 w-75"
+                    placeholder="Product Name" autofocus>
+                <input type="text" aria-label="FirstInp" id="inp3" class="form-control py-2  mt-4  mx-4"
+                    placeholder="Seller">
+                <div class="input-group " id="inpPrice">
+                    <span class="input-group-text py-2  mt-4   m-0  font-weight-bold" id="price">$</span>
+                    <input type="text" id="inp4" class="form-control py-2  mt-4   m-0" placeholder="Price">
+                </div>
+
+            </div>
+            <div class="row col-12 justify-content-center align-items-center p-0 m-0">
+                <button type="button" class="btn btn-success   col mt-4 mx-2 my-1 rounded py-1 m-0 p-0 "
+                    onclick="_add()">Create</button>
+                <button type="button" class="btn btn-danger  col mt-4 mx-2 my-1 rounded py-1  m-0 p-0"
+                    onclick="DelletAll(this)">Dellet
+                    All</button>
+
+
+
+                <button type="button" class="btn btn-info   col mt-4 mx-2 my-1 rounded py-1 m-0 p-0"
+                    onclick="FinallEdite()">editFinall</button>
+            </div>
+
+            <div class="row justify-content-center align-items-center " id="_All">
+                <ul id="list">
+                    <li class="col-12  rounded  my-3  border border-dark bg-info d-flex justify-content-center align-items-center "
+                        id="ID1">
+                        <div class="col-12 row justify-content-center align-items-center ">
+                            <h6 class="col-2 d-flex justify-content-center align-items-center">ID</h6>
+                            <h6 class="col-2 d-flex justify-content-center align-items-center">Product Name</h6>
+                            <h6 class="col-2 d-flex justify-content-center align-items-center">Seller</h6>
+                            <h6 class="col-2 d-flex justify-content-center align-items-center">Price</h6>
+                            <h6 class="col-2 d-flex justify-content-center align-items-center">Edit</h6>
+                            <h6 class="col-2 d-flex justify-content-center align-items-center">Dellet</h6>
+                        </div>
+
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </main>
+
+</body>
+
+<script src="assets/stylesheet/index.js"></script>
+
+</html>

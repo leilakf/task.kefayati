@@ -1,0 +1,41 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Almarai', sans-serif;
+    font-family: 'Lalezar', cursive;
+    font-family: 'Noto Sans Arabic', sans-serif;
+    font-family: 'Tajawal', sans-serif;
+    font-weight: bold;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+
+
+li {
+    list-style-type: none;
+}
+
+input {
+    background-color: rgb(231, 225, 238);
+    border: 0px;
+    font-weight: bold;
+
+}
+
+#inp1 {
+    font-weight: bold;
+    height: 2.5rem;
+    background-color: rgb(231, 225, 238);
+}
+
+._select {
+    cursor: pointer;
+}
+
+
+#price {
+    background-color: rgb(231, 225, 238);
+    font-weight: bold;
+}

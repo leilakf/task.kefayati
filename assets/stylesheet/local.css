@@ -1,0 +1,95 @@
+@media screen and (max-width:576px) {
+
+  #inp3,
+  #inp4,
+  #inpPrice {
+    width: 75%;
+  }
+
+  h6 {
+    font-size: 13px;
+    font-weight: bold;
+  }
+}
+
+/* end sm mobile */
+
+@media screen and (min-width:577px) {
+
+  #inp3,
+  #inp4,
+  #inpPrice {
+    width: 75%;
+  }
+
+  h6 {
+    font-size: 13px;
+    font-weight: bold;
+  }
+}
+
+/* end big mobile */
+
+@media screen and (min-width:768px) {
+
+  #inp3,
+  #inp4,
+  #inpPrice {
+    width: 75%;
+  }
+
+  h6 {
+    font-size: 13px;
+    font-weight: bold;
+  }
+
+}
+
+/* end tablet */
+
+@media screen and (min-width:992px) {
+
+  #inp3,
+  #inp4,
+  #inpPrice {
+    width: 25%;
+  }
+
+  h6 {
+    font-size: 15px;
+    font-weight: bold;
+  }
+}
+
+/* end desktop */
+
+@media screen and (min-width:1200px) {
+
+  #inp3,
+  #inp4,
+  #inpPrice {
+    width: 25%;
+  }
+
+  h6 {
+    font-size: 15px;
+    font-weight: bold;
+  }
+}
+
+/* end big descktop */
+@media screen and (min-width:1400px) {
+
+  #inp3,
+  #inp4,
+  #inpPrice {
+    width: 25%;
+  }
+
+  h6 {
+    font-size: 15px;
+    font-weight: bold;
+  }
+}
+
+/* end xxl 
