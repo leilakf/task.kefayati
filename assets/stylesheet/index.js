@@ -104,6 +104,10 @@ function _Edit(self) {
     //........ create id turn
     EditId = self.parentElement.parentElement.getAttribute("id")
 
+    // I made a switch between build and modify 
+    document.getElementById("edite").classList.remove("d-none")
+    document.getElementById("_add").classList.add("d-none")
+
 }
 
 //..... create final edite for Edits to replace  UL made in original form...
@@ -131,6 +135,9 @@ function FinallEdite() {
     localStorage.setItem("PK", JSON.stringify(x.innerHTML));
 
 
+    //    I made a switch between build and modify 
+    document.getElementById("edite").classList.add("d-none")
+    document.getElementById("_add").classList.remove("d-none")
 
 }
 
